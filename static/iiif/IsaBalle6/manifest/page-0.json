@@ -1,0 +1,21 @@
+{
+  "id": "https://IsaBalle24.github.io/portafolio/iiif/IsaBalle6/manifest/page-0.json",
+  "items": [
+    {
+      "id": "https://IsaBalle24.github.io/portafolio/iiif/IsaBalle6/manifest/image-0.json",
+      "items": [],
+      "type": "Annotation",
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "motivation": "painting",
+      "target": "https://IsaBalle24.github.io/portafolio/iiif/IsaBalle6/manifest/canvas-0.json",
+      "body": {
+        "id": "https://IsaBalle24.github.io/portafolio/iiif/IsaBalle6/0/full/max/0/default.jpg",
+        "type": "Image",
+        "format": "image/jpeg",
+        "height": 3915,
+        "width": 5828
+      }
+    }
+  ],
+  "type": "AnnotationPage"
+}

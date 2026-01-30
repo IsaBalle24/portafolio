@@ -1,5 +1,7 @@
-pid,label,autor,fecha
-AdriaenCollaert,America Tortuga,Adriaen Collaert,1586
-JohannSadeler,America Loro,Johann Sadeler,1581
-PhilipsGalle,America Composición,Philips Galle,1547
-PhilipsGalle2,America Cabeza,Philips Galle,1585
+pid,label,fecha,soporte,medio,tipo,dimensiones
+IsaBalle1,Vaquerito,2024,papel crema,Aguafuerte y punta seca,Grabado,16.4cm x 10.7cm
+IsaBalle2,Estática,2024,papel,Carboncillo y lápiz,Dibujo,60.96cm x 43.43cm
+IsaBalle3,"Oh, Joy!",2024,papel,Carboncillo y lápiz,Dibujo,60.96cm x 43.43cm
+IsaBalle4,Bodegón,2024,papel,Carboncillo y lápiz,Dibujo,60.96cm x 43.43cm
+IsaBalle5,Early Smoke,2024,papel rosa espina,Punta seca y aguatinta en plancha de cobre,Grabado,25cmx17cm
+IsaBalle6,Resiste hasta el FIN,2024,papel blanco,Relieve en linóleo,Grabado,35.56cm x 16.51cm

@@ -1,38 +1,53 @@
 const config = {
   "lang": "es",
   "localPort": "5173",
-  "base": "https://srsergiorodriguez.github.io",
-  "baseurl": "/serie-mini",
-  "title": "Serie Mini",
-  "subtitle": "Un sistema para mini colecciones digitales",
-  "credits": "Por Sergio Rodríguez Gómez",
-  "copyright": "Todos los derechos reservados, 2024",
-  "logos": [
-    {img: "logos/logo.png", link: "https://github.com/srsergiorodriguez/serie-mini"}
-  ],
+  "base": "https://IsaBalle24.github.io",
+  "baseurl": "/portafolio",
+  "title": "Portafolio de Obras",
+  "subtitle": "Portafolio de obras de la artista Isabel Ballester Rojas",
+  "credits": "Por Isabel Ballester Rojas",
+  "copyright": "Todos los derechos reservados, 2026",
   "pages": {
     "iiifViewer": true,
     "metadataToShow": [
       {
         "key": "label",
-        "label": "Nombre",
-        "type": "text"
-      },
-      {
-        "key": "autor",
-        "label": "Autor",
+        "label": "Label",
         "type": "text"
       },
       {
         "key": "fecha",
         "label": "Fecha",
         "type": "text"
+      },
+      {
+        "key": "soporte",
+        "label": "Soporte",
+        "type": "text"
+      },
+      {
+        "key": "medio",
+        "label": "Medio",
+        "type": "text"
+      },
+      {
+        "key": "tipo",
+        "label": "Tipo",
+        "type": "text"
+      },
+      {
+        "key": "dimensiones",
+        "label": "Dimensiones",
+        "type": "text"
       }
     ],
     "metadataToIndex": [
       "label",
-      "autor",
-      "fecha"
+      "fecha",
+      "soporte",
+      "medio",
+      "tipo",
+      "dimensiones"
     ]
   }
 };
