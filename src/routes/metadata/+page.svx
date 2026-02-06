@@ -23,6 +23,6 @@ Este es el protocolo que especifica la construcción de los datos de la colecci�
 | soporte| Material sobre el cual se realizó la obra, en letras minusculas                 | categórico |
 | medio  | Materiales o técnicas utilizadas en la obra                                     | categórico |
 | tipo   | Tipo de obra, si dibujo, grabado, pintura, etc.                                 | categórico |
-| dimensiones| Medidas de la obra, en centimetros                    | categórico |
+| dimensiones| Medidas de la obra, en centimetros                                          | numérico   |
 
 <MetadataTable />
