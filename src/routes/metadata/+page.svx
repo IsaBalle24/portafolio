@@ -19,7 +19,10 @@ Este es el protocolo que especifica la construcción de los datos de la colecci�
 |---     |---                                                                              |---         |
 | pid    | Identificador único                                                             | categórico |
 | label  | Nombre de la obra. Iniciales con mayúsculas                                     | categórico |
-| autor  | Autor de la obra. Inciales con mayúsculas, incluir acentos                      | categórico |
 | fecha  | Año aproximado de producción de la obra. Escrito en número completo (p.ej 1589) | ordinal    |
+| soporte| Material sobre el cual se realizó la obra, en letras minusculas                 | categórico |
+| medio  | Materiales o técnicas utilizadas en la obra                                     | categórico |
+| tipo   | Tipo de obra, si dibujo, grabado, pintura, etc.                                 | categórico |
+| dimensiones| Medidas de la obra, en centimetros                    | categórico |
 
 <MetadataTable />

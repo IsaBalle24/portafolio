@@ -1,7 +1,9 @@
 <svelte:head>
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-  </style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+ </style>
 </svelte:head>
 
 <slot></slot>
@@ -10,13 +12,12 @@
   :global(:root){
     --stroke: black; /* Font color */
     --fill: #fdfcfa; /* Background color */
-    --accent1: #c9e2ef; /* Main color */
-    --accent2: #0b456c; /* Higlights color */
-    --mainfont: "Lato", sans-serif;
-    --headerfont: "Lato", sans-serif;
+    --accent1: #acc12f; /* Main color */
+    --accent2: #9b2226; /* Higlights color */
+    --mainfont: "Playwrite NZ Basic", sans-serif;
+    --headerfont: "Oswald", small;
     font-family: var(--mainfont);
   }
-
   :global(body) {
     padding: 0px;
     margin: 0px;
@@ -38,7 +39,7 @@
   }
 
   :global(p, li) {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   :global(table) {

@@ -11,46 +11,21 @@ layout: page
   import VizTree from '$components/VizTree.svelte';
 </script>
 
-# Recorrido por la colección
+# Diferentes maneras de visualizar el portafolio
+Hay poco, pero hey, la organización es importante :D
 
-Esta colección de muestra recopila varias imágenes con representaciones alegóricas de América tomadas de [Rijksstudio](https://www.rijksmuseum.nl/en), la colección digital del Rijks Museum de Países Bajos. Todas las imágenes usadas están en el dominio público.
+Primero, mi obra favorita de grabado que hice durante mi intercambio en Granada. Muy divertido, 10/10 recomiendo
 
-Usa este archivo para incluir contenido que permita hacer un recorrido por la colección.
+<ItemPreview pid="IsaBalle1" title="Vaquerito" alt="Se muestra una figura de un vaquero agarrando su pistola. Perspectiva desde los pies. No tiene rostro, solo estrellas sobre su cabeza" />
 
-Para poner una imagen correspondiente a un ítem de la colección en este recorrido, usa el componente ItemPreview: 
+Esta obra la encuentro bien divertida pero me gustaría desarrollarla más porque siento q le falta...algo, qsy qsy
 
-`<ItemPreview pid="PID" title="TÍTULO" alt="TEXTO ALTERNATIVO" page="PÁGINA DEL ÍTEM (opcional)">`
+<ItemPreview pid="IsaBalle3" title="Oh, Joy!" alt="Se muestran dos mujeres, una brincando en felicidad por encima del rostro y cuerpo de la otra. Estan vestidas con ropa de cuero y pvc"/>
 
-Así se mostrará una imagen que, si se cliquea, te llevará al elemento de la colección correspondiente.
-
-Así:
-
-<ItemPreview pid="AdriaenCollaert" title="Por Adriaen Collaert" />
-
-También puedes usar urls de imágenes externas con normalidad en el formato Markdown.
-
-## Elementos interactivos
-
-## Gráfico de barras
-
-`<VizBarChart key="columna con valor categórico" top="numero de barras con mayor conteo (opcional, por defecto 10)/>`
-
-<VizBarChart key="autor"/>
-
-## Histograma
-
-`<VizBarChart key="columna con valor numérico" />`
-
-<VizHistogram key="fecha"/>
-
-## Árbol jerárquico
-
-`<VizTree key="Array con columnas con valores categóricos" metadata="metadatos prefiltrados (opcional)"/>`
-
-<VizTree keys={["autor", "label"]}/>
-
-## Línea de tiempo
-
-`<VizTimeline dateKey="columna con fecha" metadata="metadatos prefiltrados (opcional)">`
+Aquí una linea de tiempo, aunque no vale de mucho porq todo es del mismo año :/
 
 <VizTimeline dateKey="fecha"/>
+
+Aquí las obras divididas entre técnica y medio
+
+<VizTree keys={["tipo","medio"]}/>
